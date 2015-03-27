@@ -1,0 +1,25 @@
+<div class="frame" id="front-end-view">
+<div class="front-end-bg-img"></div>
+<!-- <img class="bg-img" src="img/rayban.jpg" alt=""> -->
+<div class="slide-up-container">
+	This is stuff!
+</div>
+
+
+<script type="text/javascript">
+		$(document).ready(function() {
+		setTimeout(function() {
+      // Do something after 5 seconds
+	$(".slide-up-container").each(function(index) {
+    $(this).delay(400*index).animate({bottom: 0}, 600);
+});
+}, 3000);
+
+
+
+	
+	})
+
+
+</script>
+</div>

@@ -1,0 +1,29 @@
+<div class="frame">
+	
+        <h1 class="cl-effect-1 "><a href="" class="title">I code stuff</a></h1>
+		<div class="squares-wrapper">	
+        <a href="#front-end"><div id="front-end" class="squares"><p>Front End Dev</p></div></a>
+        <a href="#back-end"><div id="back-end" class="squares"><p>Back End Dev</p></div></a>
+        <a href="#personality"><div id="personality" class="squares"><p>Personality</p></div></a>
+        <a href="#contact"><div id="communication" class="squares"><p>Communication</p></div></a>
+		</div>
+
+        <!-- <h1 class="cl-effect-1"><a href="#welcome">{{10+90}}</a></h1>  -->
+
+<script type="text/javascript">
+		$(document).ready(function() {
+		setTimeout(function() {
+      // Do something after 5 seconds
+	$(".squares").each(function(index) {
+    $(this).delay(400*index).animate({opacity: 1}, 600);
+});
+}, 1000);
+
+
+
+	
+	})
+
+
+</script>
+</div>        
